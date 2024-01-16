@@ -12,7 +12,8 @@ def main(path):
     print(formatter(string))
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    main(sys.argv[-1]) # the last argument in the command line
+
     # run from terminal: 
     # python3 jformat.py <path_to_json_file>
 
